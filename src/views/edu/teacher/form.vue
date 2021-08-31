@@ -67,7 +67,7 @@ const defaultForm = {
   level: '',
   career: '',
   intro: '',
-  avatar: process.env.VUE_APP_OSS_PATH + '/avatar/default.jpeg'
+  avatar: process.env.VUE_APP_OSS_PATH + '/default/default.jpeg'
 }
 
 export default {

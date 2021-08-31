@@ -36,5 +36,4 @@ export default {
     }
   }
 }
-//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
 </script>
