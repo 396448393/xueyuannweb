@@ -15,6 +15,9 @@ import router from './router'
 import '@/icons' // icon
 import '@/permission' // permission control
 
+import '@/assets/tinymce4.7.5/tinymce.min.js'
+import '@/assets/tinymce4.7.5/langs/zh_CN.js'
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api

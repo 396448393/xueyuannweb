@@ -7,5 +7,11 @@ export default {
       method: 'post',
       data: courseInfo
     })
+  },
+  getCourseInfoById(id) {
+    return request({
+      url: `${api_name}/course-info/${id}`,
+      method: 'get'
+    })
   }
 }
