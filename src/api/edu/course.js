@@ -14,11 +14,18 @@ export default {
       method: 'get'
     })
   },
-  updateCourseInfoById(courseInfo){
+  updateCourseInfoById(courseInfo) {
     return request({
       url: `${api_name}/update-course-info/${courseInfo.id}`,
       method: 'put',
       data: courseInfo
+    })
+  },
+  getPageList(page, limit, searchObj) {
+    return request({
+      url: `${api_name}/${page}/${limit}`,
+      method: 'get',
+      params: searchObj
     })
   }
 }

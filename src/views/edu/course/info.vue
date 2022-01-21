@@ -127,6 +127,7 @@ export default {
         console.log(id)
       } else {
         this.courseInfo = { ...defaultForm }
+        console.log('初始化', this.courseInfo)
         // 初始化分类列表
         this.initSubjectList()
         // 获取讲师列表
@@ -174,7 +175,6 @@ export default {
           message: '保存失败'
         })
       })
-
     },
     initSubjectList() {
       subject.getNestedTreeList().then(response => {
